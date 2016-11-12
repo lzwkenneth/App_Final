@@ -19,7 +19,8 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Ticket Categories" />
+            android:text="Ticket Categories"
+            android:textSize="30dip"/>
 
 
         <TextView

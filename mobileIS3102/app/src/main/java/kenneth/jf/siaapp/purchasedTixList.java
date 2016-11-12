@@ -40,6 +40,7 @@ import java.util.concurrent.ExecutionException;
 public class purchasedTixList extends Fragment{
     View myView;
     ListView lv;
+    int count = 1;
     ArrayList<TicketObject> list = new ArrayList<>();
     private RestTemplate restTemplate = ConnectionInformation.getInstance().getRestTemplate();
     private String url = ConnectionInformation.getInstance().getUrl();
@@ -49,9 +50,7 @@ public class purchasedTixList extends Fragment{
         myView = inflater.inflate(R.layout.purchased_ticketlist, container, false);
         try {
             new viewPurchasedTix().execute().get();
-         /*   for(int i=0;i<list.size();i++){
-                System.err.println("LISTVIEW: "+ list.size());
-            }*/
+
 
             lv = (ListView)myView.findViewById(R.id.purchasedTixList);
             TextView txv = (TextView) myView.findViewById(R.id.emptytv);
@@ -84,7 +83,6 @@ public class purchasedTixList extends Fragment{
             Log.d("TAG", "DO IN BACKGROUND");
             try {
 
-
                 HttpEntity<String> request2 = new HttpEntity<String>(ConnectionInformation.getInstance().getHeaders());
                 Log.d("TAGGGGGGGGREQUEST", ConnectionInformation.getInstance().getHeaders().getAccept().toString());
                 String url2 = "https://" + url + "/tixGetTix";
@@ -97,10 +95,10 @@ public class purchasedTixList extends Fragment{
                 Log.d("TAG",responseEntity.getStatusCode().toString());
 
 
-
                 for ( TicketObject o : responseEntity.getBody()){
                     TicketObject ticketObject = o;
                     list.add(ticketObject);
+
                    // System.err.println("Tickets: " + o.getTicketDetails());
                 }
                 Collections.sort(list, new Comparator<TicketObject>() {
@@ -108,14 +106,6 @@ public class purchasedTixList extends Fragment{
                         return (s1.getTicketDetails().compareTo(s2.getTicketDetails()));
                     }
                 });
-
-                // ResponseEntity<CategoryObject[]> responseEntity2 = restTemplate.exchange("https://" + url + "/tixViewTicketCat", HttpMethod.POST, request2, CategoryObject[].class);
-
-                // Log.d("loopforTicketlistobject", responseEntity.getBody().toString());
-                //for( CategoryObject o : responseEntity2.getBody()){
-                //    Log.d("loopforTicketlistobject2", o.toString());
-                // }
-
 
             } catch (Exception e) {
                 Log.e("TAG", e.getMessage(), e);
@@ -128,76 +118,5 @@ public class purchasedTixList extends Fragment{
         }
     }
 
-    /*private class MyCustomAdapter extends ArrayAdapter<TicketObject> {
-
-        private ArrayList<TicketObject> list;
-
-        public MyCustomAdapter(Context context, int textViewResourceId,
-                               ArrayList<TicketObject> list) {
-            super(context, textViewResourceId, list);
-            this.list = new ArrayList<>();
-            this.list.addAll(list);
-        }
-
-        private class ViewHolder {
-            TextView nameTix;
-            Button showQRcode;
-        }
-
-
-        //suppose to populate the arraylist with Ticketlistobject
-        @Override
-        public View getView(final int position, View convertView, ViewGroup parent) {
-
-            purchasedTixList.MyCustomAdapter.ViewHolder holder = null;
-            Log.v("ConvertView", String.valueOf(position));
-
-            if (convertView == null) {
-                LayoutInflater vi = (LayoutInflater)getActivity().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-                convertView = vi.inflate(R.layout.purchased_tix_info, null);
-
-                holder = new purchasedTixList.MyCustomAdapter.ViewHolder();
-                holder.nameTix = (TextView) convertView.findViewById(R.id.nameTix);
-
-                holder.showQRcode = (Button)convertView.findViewById(R.id.showQRcode);
-                convertView.setTag(holder);
-
-                holder.nameTix.setOnClickListener( new View.OnClickListener() {
-                    public void onClick(View v) {
-                        Button cb = (Button) v ;
-                        TicketObject tixObject = (TicketObject) cb.getTag();
-                        Toast.makeText(getActivity(),
-                                "Clicked on button",
-                                Toast.LENGTH_LONG).show();
-
-                    }
-                });
-            }
-            else {
-                holder = (purchasedTixList.MyCustomAdapter.ViewHolder) convertView.getTag();
-            }
-
-            TicketObject tixObject = list.get(position);
-            holder.nameTix.setText(tixObject.getTicketDetails());
-            holder.nameTix.setTag(tixObject);
-            holder.showQRcode.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    Button cb = (Button) view ;
-                    TicketObject tixObject = (TicketObject) cb.getTag();
-                    int pos = position +1;
-                    //send details using bundle to the next fragment
-                    Intent intent = new Intent(getActivity(),  dashboard.class);
-                    intent.putExtra("key2", "tixInfo");
-                    intent.putExtra("tixId", pos);
-                    startActivity(intent);
-                }
-            });
-
-            return convertView;
-
-        }
-    }
-*/
 
 }

@@ -8,7 +8,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:paddingTop="60dp">
+        android:paddingTop="60dp"
+        android:paddingLeft="10dp">
 
         <TextView
             android:id="@+id/emptytv"
@@ -21,7 +22,14 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Purchased Tickets"/>
+
+            android:text="Purchased Tickets"
+            android:textSize="30dip"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="________________________________________________________"/>
+
 
         <ListView
             android:layout_height="wrap_content"

@@ -15,6 +15,7 @@ import android.content.Intent;
 import android.content.ServiceConnection;
 import android.content.pm.PackageManager;
 import android.os.AsyncTask;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.RemoteException;
@@ -47,6 +48,8 @@ import org.altbeacon.beacon.BeaconParser;
 import org.altbeacon.beacon.RangeNotifier;
 import org.altbeacon.beacon.Region;
 import org.altbeacon.beacon.powersave.BackgroundPowerSaver;
+import org.altbeacon.beacon.startup.BootstrapNotifier;
+import org.altbeacon.beacon.startup.RegionBootstrap;
 import org.json.JSONObject;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpMethod;
@@ -84,42 +87,49 @@ public class dashboard extends AppCompatActivity
 
     public static final int PAYPAL_REQUEST_CODE = 123;
 
+    boolean test = true;
+
     //BEACON////////////
-    BeaconManager mBeaconManager;
+    BeaconManager mBeaconManager ;
     private static final String LOG_TAG = "MainActivity";
     private BluetoothManager btManager;
     Set<String> beaconIDs = new HashSet<>();
     private android.bluetooth.BluetoothAdapter btAdapter;
     private Handler scanHandler = new Handler();
-    private int scan_interval_ms = 7000;
+    private int scan_interval_ms = 60000;
     String uuid;
     String promoMessage = "";
     private boolean isScanning = false;
-
+    Region region = new Region("myId", null,null,null);
     //
 
     @Override
     protected void onStop() {
         sliderShow.stopAutoCycle();
+        mBeaconManager.unbind(this);
         super.onStop();
     }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        Log.d(TAG, "This is Android Beacon Library version: "+org.altbeacon.beacon.BuildConfig.VERSION_NAME);
+        Log.d(TAG, "This is Android version N? :"+(android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.N));
+        verifyBluetooth();
+        mBeaconManager = BeaconManager.getInstanceForApplication(this);
+        // set the duration of the scan to be 1.1 seconds
+        mBeaconManager.setBackgroundScanPeriod(5100l);
+        // set the time between each scan to be 1 minute (60 seconds)
+        mBeaconManager.setBackgroundBetweenScanPeriod(60000l);
         //BEACON///////
         btManager = (BluetoothManager) this.getSystemService(Context.BLUETOOTH_SERVICE);
         btAdapter = btManager.getAdapter();
 
         scanHandler.post(scanRunnable);
-        /////////
 
         setContentView(R.layout.activity_dashboard);
 
-
         sliderShow = (SliderLayout) findViewById(R.id.slider);
-
 
         TextSliderView textSliderView2 = new TextSliderView(this);
         textSliderView2.setScaleType(BaseSliderView.ScaleType.Fit)
@@ -152,7 +162,6 @@ public class dashboard extends AppCompatActivity
 
         sliderShow.setDuration(3600);
 
-
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
             //System.out.println("set vivisility gone");
@@ -178,7 +187,7 @@ public class dashboard extends AppCompatActivity
                 //from viewTicketList
                 fragmentManager.beginTransaction().replace(R.id.contentFrame, new locationInfo()).commit();
             } else if (extras.getString("key2").equals("passToPayPal")) {
-                //from paymentSummary
+                //from payment
                 fragmentManager.beginTransaction().replace(R.id.contentFrame, new PayPalFrag()).commit();
             } else if (extras.getString("key2").equals("purchasedTix")) {
                 //from paymentSummary
@@ -189,6 +198,9 @@ public class dashboard extends AppCompatActivity
             } else if (extras.getString("key2").equals("goToEventList")) {
                 //directing to event list
                 fragmentManager.beginTransaction().replace(R.id.contentFrame, new eventlisting()).commit();
+            } else if (extras.getString("key2").equals("changePass")) {
+                //directing to event list
+                fragmentManager.beginTransaction().replace(R.id.contentFrame, new changePass()).commit();
             } else {
                 //this key is inside confirmationActivity
                 String value = extras.getString("key");
@@ -209,15 +221,12 @@ public class dashboard extends AppCompatActivity
         //paypal
 
         Intent intent = new Intent(this, PayPalService.class);
-
         intent.putExtra(PayPalService.EXTRA_PAYPAL_CONFIGURATION, config);
-
         startService(intent);
 
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
         /*FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -235,9 +244,6 @@ public class dashboard extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-
-        verifyBluetooth();
-
 
         /*if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             // Android M Permission check
@@ -259,12 +265,7 @@ public class dashboard extends AppCompatActivity
                 builder.show();
             }
         }*/
-
         doDiscovery();
-        Log.d("TAG", "Before dashboard task");
-
-        Log.d("TAG", "After dashboard task");
-
     }
 
     private void setResult(String value) {
@@ -306,9 +307,10 @@ public class dashboard extends AppCompatActivity
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-
+        sliderShow.setVisibility(View.GONE);
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            fragmentManager.beginTransaction().replace(R.id.contentFrame, new settingFrag()).commit();
             return true;
         } else if (id == R.id.action_logout) {
             new doLogout().execute();
@@ -430,12 +432,12 @@ public class dashboard extends AppCompatActivity
 
 
 
-    /*public void onRangingClicked(View view) {
+    public void onRangingClicked(View view) {
         Intent myIntent = new Intent(this, RangingActivity.class);
         this.startActivity(myIntent);
     }
 
-    @Override
+    /*@Override
     public void onResume() {
         super.onResume();
         ((BeaconReferenceApplication) this.getApplicationContext()).setMonitoringActivity(this);
@@ -445,8 +447,8 @@ public class dashboard extends AppCompatActivity
     public void onPause() {
         super.onPause();
         ((BeaconReferenceApplication) this.getApplicationContext()).setMonitoringActivity(null);
-    }*/
-
+    }
+*/
 
     //verify bluetooth is on
     private void verifyBluetooth() {
@@ -504,9 +506,10 @@ public class dashboard extends AppCompatActivity
     //paypal
     @Override
     public void onDestroy() {
+        super.onDestroy();
         stopService(new Intent(this, PayPalService.class));
         mBeaconManager.unbind(this);
-        super.onDestroy();
+
     }
 
 
@@ -552,12 +555,18 @@ public class dashboard extends AppCompatActivity
 
             if (isScanning) {
                 if (btAdapter != null) {
+
+
+
                     btAdapter.stopLeScan(leScanCallback);
                 }
             } else {
-                if (btAdapter != null) {
-                    btAdapter.startLeScan(leScanCallback);
-                }
+
+
+                    if (btAdapter != null) {
+                        btAdapter.startLeScan(leScanCallback);
+                    }
+
             }
 
             isScanning = !isScanning;
@@ -575,14 +584,18 @@ public class dashboard extends AppCompatActivity
         public void onLeScan(final BluetoothDevice device, final int rssi, final byte[] scanRecord) {
             int startByte = 2;
             boolean patternFound = false;
-            while (startByte <= 5) {
-                if (((int) scanRecord[startByte + 2] & 0xff) == 0x02 && //Identifies an iBeacon
-                        ((int) scanRecord[startByte + 3] & 0xff) == 0x15) { //Identifies correct data length
-                    patternFound = true;
-                    break;
+                if(test) {
+                    while (startByte <= 5) {
+                        if (((int) scanRecord[startByte + 2] & 0xff) == 0x02 && //Identifies an iBeacon
+                                ((int) scanRecord[startByte + 3] & 0xff) == 0x15) { //Identifies correct data length
+                            patternFound = true;
+                            break;
+                        }
+                        startByte++;
+                    }
                 }
-                startByte++;
-            }
+
+
 
             if (patternFound) {
                 //Convert to hex String
@@ -602,7 +615,6 @@ public class dashboard extends AppCompatActivity
 
                 // minor
                 final int minor = (scanRecord[startByte + 22] & 0xff) * 0x100 + (scanRecord[startByte + 23] & 0xff);
-
 
                 //Record in front
                 Log.i(LOG_TAG, "UUID: " + uuid + "\\nmajor: " + major + "\\nminor" + minor);
@@ -631,13 +643,12 @@ public class dashboard extends AppCompatActivity
                     setMessage("Hurry Up! The 1 for 1 drink at Starbucks ends at 4pm!");
                 }
 */
-
                 System.out.println("beaconidsize: " + beaconIDs.size());
-                if (!beaconIDs.contains(promoMessage)) {
+                if (!beaconIDs.contains(promoMessage) && !promoMessage.equals("")) {
 
                     System.out.println("beaconidsize: " + beaconIDs.size());
-                    beaconIDs.add(promoMessage);
 
+                    beaconIDs.add(promoMessage);
 
                     NotificationManager notificationManager = (NotificationManager)
                             getApplicationContext().getSystemService(NOTIFICATION_SERVICE);
@@ -646,25 +657,22 @@ public class dashboard extends AppCompatActivity
 // use System.currentTimeMillis() to have a unique ID for the pending intent
                     //PendingIntent pIntent = PendingIntent.getActivity(getApplicationContext(), (int) System.currentTimeMillis(), intent, 0);
 
-                    Notification n = new Notification.Builder(getApplicationContext())
-                            .setContentTitle("Message from IFMS App")
-                            .setVisibility(NotificationCompat.VISIBILITY_PUBLIC)
-                            .setContentText(promoMessage)
-                            .setDefaults(Notification.DEFAULT_ALL)
-                            .setSmallIcon(R.drawable.ic_feedback_black_24dp)
-                            //.setContentIntent(pIntent)
-                            .setPriority(Notification.PRIORITY_MAX)
-                            .setStyle((new Notification.BigTextStyle().bigText(promoMessage)))
-                            .setAutoCancel(true).build();
-                    System.out.println("issue notification");
-                    notificationManager.notify(0, n);
-                    System.out.println("issued notification");
-
+                        Notification n = new Notification.Builder(getApplicationContext())
+                                .setContentTitle("Message from IFMS App")
+                                .setVisibility(NotificationCompat.VISIBILITY_PUBLIC)
+                                .setContentText(promoMessage)
+                                .setDefaults(Notification.DEFAULT_ALL)
+                                .setSmallIcon(R.drawable.ic_feedback_black_24dp)
+                                //.setContentIntent(pIntent)
+                                .setPriority(Notification.PRIORITY_MAX)
+                                .setStyle((new Notification.BigTextStyle().bigText(promoMessage)))
+                                .setAutoCancel(true).build();
+                        System.out.println("issue notification");
+                        notificationManager.notify(0, n);
+                        System.out.println("issued notification");
                 }
                 //Toast.makeText(getActivity(), "Your Beacon Is Found!", Toast.LENGTH_LONG).show();
-
             }
-
         }
     };
 
@@ -689,21 +697,22 @@ public class dashboard extends AppCompatActivity
     @Override
     public void onResume() {
         super.onResume();
-        mBeaconManager = BeaconManager.getInstanceForApplication(this);
-        // Detect the main Eddystone-UID frame:
-        mBeaconManager.getBeaconParsers().add(new BeaconParser().setBeaconLayout("m:0-3=4c000215,i:4-19,i:20-21,i:22-23,p:24-24"));
+
+     /* mBeaconManager.getBeaconParsers().add(new BeaconParser().setBeaconLayout("m:0-3=4c000215,i:4-19,i:20-21,i:22-23,p:24-24"));
         mBeaconManager.getBeaconParsers().add(new BeaconParser().setBeaconLayout("x,s:0-1=feaa,m:2-2=20,d:3-3,d:4-5,d:6-7,d:8-11,d:12-15"));
         mBeaconManager.getBeaconParsers().add(new BeaconParser().setBeaconLayout("s:0-1=feaa,m:2-2=00,p:3-3:-41,i:4-13,i:14-19"));
         mBeaconManager.getBeaconParsers().add(new BeaconParser().setBeaconLayout("s:0-1=feaa,m:2-2=10,p:3-3:-41,i:4-20v"));
-        mBeaconManager.getBeaconParsers().add(new BeaconParser().setBeaconLayout("s:0-1=fed8,m:2-2=00,p:3-3:-41,i:4-21v"));
+        mBeaconManager.getBeaconParsers().add(new BeaconParser().setBeaconLayout("s:0-1=fed8,m:2-2=00,p:3-3:-41,i:4-21v"));*/
         mBeaconManager.bind(this);
+
+        // Detect the main Eddystone-UID frame:
+
     }
 
     private static final String BEACON_UUID = "5C3F2F21-20D1-11E6";
     private static final int BEACON_MAJOR = 1000;
 
 
-    @Override
     public void onBeaconServiceConnect() {
 
         //text.setText("on Beacon Service Connect");
@@ -757,12 +766,11 @@ public class dashboard extends AppCompatActivity
     @Override
     public void onPause() {
         super.onPause();
+        mBeaconManager.unbind(this);
     }
 
 
     private class getMessage extends AsyncTask<Void, Void, String> {
-
-
         protected String doInBackground(Void... params) {
             Log.d("TAG", "DO IN BACKGROUND");
             try {
@@ -787,9 +795,15 @@ public class dashboard extends AppCompatActivity
         }
 
         protected void onPostExecute(String greeting) {
-
-
         }
+    }
+
+
+    public void stopBeaconScanning(){
+        test = false;
+    }
+    public void startBeaconScanning(){
+        test = true;
     }
 }
 

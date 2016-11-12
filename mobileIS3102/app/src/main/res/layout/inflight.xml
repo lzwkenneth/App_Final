@@ -49,6 +49,14 @@
             android:entries="@array/event_array"
             android:prompt="@string/category" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="Type your feedback here"
+            android:textStyle="italic"
+            android:layout_gravity="top"/>
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -59,17 +67,12 @@
             android:maxLength="1500"
             android:maxLines="10"
             android:minLines="5"
+            android:padding="10dp"
             android:hint="Feedback"
-            android:layout_gravity="top"
+            android:gravity="top|left"
             />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="0.5"
-            android:text="Type your feedback here"
-            android:textStyle="italic"
-            android:layout_gravity="top"/>
+
 
         <Button
             android:layout_width="match_parent"

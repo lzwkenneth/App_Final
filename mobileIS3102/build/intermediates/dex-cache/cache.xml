@@ -3,471 +3,471 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="0418554516ee37f52500a54d6d09cf1f01d4d1cc">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_c9a151df3df19c5e93cf33bfb5ac59c9d6c8f24a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\exploded-aar\com.paypal.sdk\paypal-android-sdk\2.14.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="da47b5635353ca55aabc9e1ad6aaaa5626fedcb4">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.paypal.sdk-paypal-android-sdk-2.14.2_c04d0798bf38061dbc6f719da78004a298c5e12c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_4ad20772d7f4dd9e29141086051c9c48d3fb7b47\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\core-3.2.1_2cf1670319868e0c1e3fa2e6759e4a56d252cbfd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\zbar\1.8.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="15f1c7a4c01dd95b6da8c5acfaf42d2075d1ae2a">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\me.dm7.barcodescanner-zbar-1.8.2_5e416551af51124a75dcdad7e37aff570d7fa94b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_d2e900e5279df3696423097ba88c3d1e20c8ad0a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.4.0_abe1b2b92547d664a2b98d4e46b199c993ae4235\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.0_2bfa63aa1479b37837e60d9ac355f92016b6bbf3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.1\19047bdb6a4fc00a44124f64ca98e88fc204e7e3\okhttp-3.3.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="19047bdb6a4fc00a44124f64ca98e88fc204e7e3">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.3.1_869a3c4090d731beadcf5c658ec9a030126241f4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.4.0_dda38da3d22ba2798c73a903e23c27a4008753ac\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_7a82d64356b3488b57a439f8efe805d35a84734b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_259808c43f56507693326bed55ba7a5454ab9c62\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_1ddfa93ff1461d212c4a954636dba1cbd280adc2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.4.0_14758939af2aa9fdd342cad24a04b8a31b7716c3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\exploded-aar\org.altbeacon\android-beacon-library\2.3.5\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="73124f508f8d4d974217d0ee760fef46c8a20f61">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\org.altbeacon-android-beacon-library-2.3.5_8f0f9f87cade87a6d85e0c2b8865a12a8be832f8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.3.2\559b70ac8a0d5cad611da4223137a920147201ba\jackson-core-2.3.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="559b70ac8a0d5cad611da4223137a920147201ba">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-core-2.3.2_8a6b219e3f8efb57c36c046d642c111b7c8de0fa\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations-java5\15.0\7011b4551a8451906759b05814c58b9eb829ea9b\annotations-java5-15.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="7011b4551a8451906759b05814c58b9eb829ea9b">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\annotations-java5-15.0_abbf8299a645324a2f5e3bf8af3c6c7ea37eb727\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\6.1.0\63735f48b82bcd24cdd33821342428252eb1ca5a\butterknife-6.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-6.1.0_5e332975632cca03703c943c3985b4331d777896\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\exploded-aar\com.stripe\stripe-android\1.0.5\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="0179adfd2118b1b314a3aec33ee0d472c6f8d5a7">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.stripe-stripe-android-1.0.5_a7c4ecb785c0dae82d29d9f11b88e0c9c09b55e6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\core\1.8.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="96c83d4de6289a3f674165f896ac992564a7138d">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\me.dm7.barcodescanner-core-1.8.2_8a1828078a3c1432498b0f7ad75ed244928e420d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_1572633d2598275c7aec70601fd304b761244235\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\.gradle\caches\modules-2\files-2.1\org.springframework.android\spring-android-core\1.0.1.RELEASE\e68f0e8e4b636ee30c4de58953be38d9b72a5e3b\spring-android-core-1.0.1.RELEASE.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="e68f0e8e4b636ee30c4de58953be38d9b72a5e3b">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\spring-android-core-1.0.1.RELEASE_5ff6b65be76d2a81c387299f2acb853e75b3c72d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.4.0\f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2\picasso-2.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.4.0_8beb647eade74f17702cd589bfa8a23c33b9f057\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.3.0\f5e853a20b60758922453d56f9ae1e64af5cb3da\jackson-annotations-2.3.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="f5e853a20b60758922453d56f9ae1e64af5cb3da">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-annotations-2.3.0_a8757816b9c8765e295ae5d4426a1140ebf125a8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.0_ed4ee14658c4aeec2904873c077ddfb33744c4a3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_a936045f6b711a8836a75fde18cdf64d3f586fb9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp-urlconnection\2.2.0\cb20062e14c523637b7643295418097b48cccec2\okhttp-urlconnection-2.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="cb20062e14c523637b7643295418097b48cccec2">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-urlconnection-2.2.0_98bf0dfd4b0eb3ba5cee4a8b36b7627303201e8b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\exploded-aar\cn.pedant.sweetalert\library\1.3\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="0c3529d9491be892952749d252ae1defa9b1f937">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\cn.pedant.sweetalert-library-1.3_b5e2bb35e71cbdd5599b7108376eacff348d77c2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_c26809cf515d52e4c77764ccfbe2fb34ab99dd2e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient-android\4.3.5.1\eecbb0b998e77629862a13d957d552b3be58fc4e\httpclient-android-4.3.5.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="eecbb0b998e77629862a13d957d552b3be58fc4e">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\httpclient-android-4.3.5.1_b450ebd0b07a95be6860bf4746794d627dcbd6fd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\.gradle\caches\modules-2\files-2.1\com.stripe\stripe-java\2.6.0\caac132a3134dab96f3f4d1c38a47160521899c1\stripe-java-2.6.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="caac132a3134dab96f3f4d1c38a47160521899c1">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\stripe-java-2.6.0_6db7d190a4d6445567cb5eb2a4cd226d48c87031\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="954697ee6ea7bdd596babf4f70e8b7a17ca7649e">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-9.4.0_78e23df6f00e41784b19d9e5594951101b2830a9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_8206f78d3b53604ba8e35f90130ad23a14d82c23\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.2.0\959c454243581fdf730abfd4f4745441724bcf2c\okhttp-2.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="959c454243581fdf730abfd4f4745441724bcf2c">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-2.2.0_6cd452c4fcdbd9a2e756d8437f06718bf182bd80\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\exploded-aar\io.card\android-sdk\5.3.4\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="28bc7007cc5fb935b0737a42f05b8286936228b0">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\io.card-android-sdk-5.3.4_0dd60b73dd885b57c27531b442dcdeadeff7667c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_defcf6cbd034b69590b041a48109306591e4ef1f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\.gradle\caches\modules-2\files-2.1\org.springframework.android\spring-android-rest-template\1.0.1.RELEASE\e132d929bd181941f79b0d63edafb8a86ae6fd33\spring-android-rest-template-1.0.1.RELEASE.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="e132d929bd181941f79b0d63edafb8a86ae6fd33">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\spring-android-rest-template-1.0.1.RELEASE_52acd860d1ab2cd983b259e4e6ea8a4578802b13\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\zbar\1.8.2\jars\libs\zbar.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="7bbdf7ba57a8a157c0cad51e455609c70887812e">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\zbar_1732f9300bf98ebb0044670c6de767cf04694275\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_58218d8d6c26602f6dd8f9a04dbf6cc6e550ba41\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_96dc973fee12ba87e09c1af1ddca655c7a92ac5e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.0_92c691a493d575db062fa2dfd2caf2d050b23938\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="5e04c0b3683ca45b343284d93e5594b5f9044551">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-9.4.0_5b84e15039ee91520f2b2482346a779b532d52d1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.3.2\c75edc740a6d8cb1cef6fa82fa594e0bce561916\jackson-databind-2.3.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="c75edc740a6d8cb1cef6fa82fa594e0bce561916">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-databind-2.3.2_22479ca1640369c81b7c684b8f713e7de49ced87\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_3ef0fcfaebc6c793d3eb2eb0fcab4345d7a179a4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="7211fadd92de838063d9bd723b4af84347259280">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_1fbe3e6addda879f9b9ddfd26e343a80de84a608\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="e454c414a069241ee08444d187f2dd3a702596b5">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-9.4.0_1a2753ca1b45a4cded9f2fb280e6d5838d36b831\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\exploded-aar\com.daimajia.slider\library\1.1.5\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="08962e03b6a954c65d4944e092879b7f5ee1208d">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.daimajia.slider-library-1.1.5_5712ff78f8f19548ad3e8f8fdf690d85ff0cd1a2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.0_8220f21f522bd100301c1f208e7f7341a7e33176\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.8.0_0dd584a8525ca5ccc1b52f747bd069cf974c8a4e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\exploded-aar\com.pnikosis\materialish-progress\1.0\jars\classes.jar"
+        jar="D:\IFMS\mobileIS3102\app\build\intermediates\exploded-aar\com.pnikosis\materialish-progress\1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="57487745ce450899f9f250d5ae5c092a682cd041">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.pnikosis-materialish-progress-1.0_a7ab8b0b90f04c11d10779b9983cc1cb09266f8b\classes.dex" />
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.pnikosis-materialish-progress-1.0_acbb27e83efeb256b344caac10da9bb206c88ec2\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jar="D:\IFMS\mobileIS3102\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.0_63a20010ae0ca66b23703a6b1e2c8aa6ca67750e\classes.dex" />
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.4.0_63ecffe22fb773ba512fe52d07a68d7917a3b579\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Program Files\Android\Android Studio1\gradle\m2repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar"
+        jar="D:\IFMS\mobileIS3102\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.0_c005de49787df25fa7188acde1a68b2ffd091177\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IFMS\mobileIS3102\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5e04c0b3683ca45b343284d93e5594b5f9044551">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-9.4.0_b0553265a4cf28784900f72540be893c06c93abd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IFMS\mobileIS3102\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_39395927b4af3053a950ba9c4fc52604d63a63b0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IFMS\mobileIS3102\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.4.0_6d9a47dc97f1955dc8ff235ede6d0f2cf7b234a8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IFMS\mobileIS3102\app\build\intermediates\exploded-aar\io.card\android-sdk\5.3.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="28bc7007cc5fb935b0737a42f05b8286936228b0">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\io.card-android-sdk-5.3.4_6974fa34469f7d6170c7340f13e66f9a1ffc30d3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IFMS\mobileIS3102\app\build\intermediates\exploded-aar\com.stripe\stripe-android\1.0.5\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0179adfd2118b1b314a3aec33ee0d472c6f8d5a7">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.stripe-stripe-android-1.0.5_f283e47eee3d6ff15ae8089ef777c28eacced33a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\core-3.2.1_8c828b793020cee96d7b75e0f74881c1ef06f193\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.2.0\959c454243581fdf730abfd4f4745441724bcf2c\okhttp-2.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="959c454243581fdf730abfd4f4745441724bcf2c">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-2.2.0_3ed3367501cc78f150c5c5a03ababd32ca61ef0a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IFMS\mobileIS3102\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="954697ee6ea7bdd596babf4f70e8b7a17ca7649e">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-9.4.0_c70d6aa8aa90253b719da263b0451478433dd190\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IFMS\mobileIS3102\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\zbar\1.8.2\jars\libs\zbar.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7bbdf7ba57a8a157c0cad51e455609c70887812e">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\zbar_3455af439a1dd33a32be02ea9c4804a81683fe77\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IFMS\mobileIS3102\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_54ed0b94a0279f96f66a7cbc7b624920cee29fef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IFMS\mobileIS3102\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\core\1.8.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="96c83d4de6289a3f674165f896ac992564a7138d">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\me.dm7.barcodescanner-core-1.8.2_97374d4ca63450affc02972d69042cdb15889fe2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android Studio\gradle\m2repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="a60a5e993c98c864010053cb901b7eab25306568">
-        <dex dex="C:\Users\Kenneth\Desktop\APPPPPPPPPPPPPP\IFMSMOBILEAPP\mobile\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.2.4_ea3566817aae63c8e87ab16e4d1ccfdc8d788289\classes.dex" />
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.2.4_5e9a2da84161f342d279baaf9d7315c3c6c5923a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IFMS\mobileIS3102\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_0637a0f9210834dead021d61fd769c17c0746cde\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.3.2\c75edc740a6d8cb1cef6fa82fa594e0bce561916\jackson-databind-2.3.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c75edc740a6d8cb1cef6fa82fa594e0bce561916">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-databind-2.3.2_45c82fea7b3231f12fe16f10285f6a9fce38fcb2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IFMS\mobileIS3102\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.0_af21a0ae81eb197c6f92596f8a37711e1a0d9955\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.stripe\stripe-java\2.6.0\caac132a3134dab96f3f4d1c38a47160521899c1\stripe-java-2.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="caac132a3134dab96f3f4d1c38a47160521899c1">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\stripe-java-2.6.0_62ef2054aa668c53f5009d5177f4b4e18157cac2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.4.0\f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2\picasso-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.4.0_21425864be1baecce1d1dc0bddf798cc05d09540\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IFMS\mobileIS3102\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\zbar\1.8.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="15f1c7a4c01dd95b6da8c5acfaf42d2075d1ae2a">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\me.dm7.barcodescanner-zbar-1.8.2_6b9a5e19fb5b8b865db69bea96fc501faa09cabf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IFMS\mobileIS3102\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6d1c14e73818c083b5f9c12144c7273d1d539ac7">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_93c68a7de1abc2c4081c3cf32d882292594e672a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IFMS\mobileIS3102\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.4.0_17ee0251e1975f08350cfbe50a785d08a030d36b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IFMS\mobileIS3102\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_a512090eef26358bb90cc108c626561494d28376\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\org.springframework.android\spring-android-core\1.0.1.RELEASE\e68f0e8e4b636ee30c4de58953be38d9b72a5e3b\spring-android-core-1.0.1.RELEASE.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e68f0e8e4b636ee30c4de58953be38d9b72a5e3b">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\spring-android-core-1.0.1.RELEASE_007846cf79b365fe92fe8330f346848b9452efed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IFMS\mobileIS3102\app\build\intermediates\exploded-aar\cn.pedant.sweetalert\library\1.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0c3529d9491be892952749d252ae1defa9b1f937">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\cn.pedant.sweetalert-library-1.3_8b2f0e048fce11cab68de29f88b5f09f7ea5503c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IFMS\mobileIS3102\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_9f8e84f9155bf1d39f5d420ade6eb5bf2a66d404\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IFMS\mobileIS3102\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_bfadfb3b6ab6efeedd631f822235f6b13d752094\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_0bda70261d84ffba5973678183bd31ec095fed69\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.8.0_88dada40b31f48f92791516eb85d5900381be86b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.1\19047bdb6a4fc00a44124f64ca98e88fc204e7e3\okhttp-3.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="19047bdb6a4fc00a44124f64ca98e88fc204e7e3">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.3.1_5faf7b957e0ee5b108140446437fb1c442ce6d05\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\org.springframework.android\spring-android-rest-template\1.0.1.RELEASE\e132d929bd181941f79b0d63edafb8a86ae6fd33\spring-android-rest-template-1.0.1.RELEASE.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e132d929bd181941f79b0d63edafb8a86ae6fd33">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\spring-android-rest-template-1.0.1.RELEASE_257859b52b35a01d1ea5cf7917df6ba1ce7c2172\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\6.1.0\63735f48b82bcd24cdd33821342428252eb1ca5a\butterknife-6.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-6.1.0_48848271bf5268fbbfa65b2a94070c814250f542\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations-java5\15.0\7011b4551a8451906759b05814c58b9eb829ea9b\annotations-java5-15.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7011b4551a8451906759b05814c58b9eb829ea9b">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\annotations-java5-15.0_009b161685c0099bcfdbd28761c67e377ca72554\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IFMS\mobileIS3102\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e454c414a069241ee08444d187f2dd3a702596b5">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-9.4.0_dc1a6eceb6fd26c263c760f02b01041ed9c7a9a9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.3.2\559b70ac8a0d5cad611da4223137a920147201ba\jackson-core-2.3.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="559b70ac8a0d5cad611da4223137a920147201ba">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-core-2.3.2_00fd29a0b185be765d25ea0748f240b00113e631\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IFMS\mobileIS3102\app\build\intermediates\exploded-aar\org.altbeacon\android-beacon-library\2.3.5\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="73124f508f8d4d974217d0ee760fef46c8a20f61">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\org.altbeacon-android-beacon-library-2.3.5_4f0f0069b7d4404353365343e1f20c6f8757e02f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IFMS\mobileIS3102\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0e5c98e09ceb51bfd953677f560d4890c805f5f6">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_39fe08bdc922fc2307d07cac8cbcf418c2aef934\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_c381e096a4a3279073b5cf49014e9da1dd1163f3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IFMS\mobileIS3102\app\build\intermediates\exploded-aar\com.paypal.sdk\paypal-android-sdk\2.14.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="da47b5635353ca55aabc9e1ad6aaaa5626fedcb4">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.paypal.sdk-paypal-android-sdk-2.14.2_3cfadb6e30ff8264b5fe55e90b84f5519ed16728\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient-android\4.3.5.1\eecbb0b998e77629862a13d957d552b3be58fc4e\httpclient-android-4.3.5.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="eecbb0b998e77629862a13d957d552b3be58fc4e">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\httpclient-android-4.3.5.1_40273ad5fe665969f4b848b12d6822148f0e23a0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IFMS\mobileIS3102\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_033e650b471370e4b0c780db601e10fc4b7e469c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IFMS\mobileIS3102\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_f511772b5b344349de9e0d14f77ddb666c2ca3e4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.3.0\f5e853a20b60758922453d56f9ae1e64af5cb3da\jackson-annotations-2.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f5e853a20b60758922453d56f9ae1e64af5cb3da">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-annotations-2.3.0_866e0e18c4d836bda82abcae510008a2acdad510\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IFMS\mobileIS3102\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_c0aba03d334c089bc94145092c2b05d513da827a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IFMS\mobileIS3102\app\build\intermediates\exploded-aar\com.daimajia.slider\library\1.1.5\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="08962e03b6a954c65d4944e092879b7f5ee1208d">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.daimajia.slider-library-1.1.5_0d891c9f5338dbdbde8935682429f5a7fa5ee05e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp-urlconnection\2.2.0\cb20062e14c523637b7643295418097b48cccec2\okhttp-urlconnection-2.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="cb20062e14c523637b7643295418097b48cccec2">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-urlconnection-2.2.0_42708b9344d0859b2b9b4be4387848e0d012d8a6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IFMS\mobileIS3102\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.0_1335c77e7c6a8869969bac436d67d151597f312b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IFMS\mobileIS3102\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_8a00eaa54508d23a3f21c7abc632c0ada1d1ef09\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IFMS\mobileIS3102\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.0_84e7ee5fea890330691d83c9cea390efee74ebed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IFMS\mobileIS3102\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_e148706a5f18ecd09f48351433ac75f971375d66\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\IFMS\mobileIS3102\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\IFMS\mobileIS3102\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.0_8daac7b528e5d656d45e79087123935c2e26b1c1\classes.dex" />
     </item>
 
 </items>

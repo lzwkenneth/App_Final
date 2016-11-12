@@ -1,3 +1,4 @@
+/*
 package kenneth.jf.siaapp;
 
 import android.app.AlertDialog;
@@ -51,14 +52,18 @@ import static android.R.id.list;
 import static android.content.Context.NOTIFICATION_SERVICE;
 
 
+*/
 /**
  * Created by User on 5/10/2016.
- */
+ *//*
+
 // for beacon connection using bluetooth Manager
 public class secondFrag extends Fragment implements BeaconConsumer {
     private static final String TAG = "SECOND FRAGMENT FOR MONITORINH";
 
-    /*Creating a beacon*/
+    */
+/*Creating a beacon*//*
+
 
     View myView;
     // ------------------------------------------------------------------------
@@ -171,7 +176,8 @@ public class secondFrag extends Fragment implements BeaconConsumer {
                 } catch (ExecutionException e) {
                     e.printStackTrace();
                 }
-                /*if(String.valueOf(minor).equals("36128")){
+                */
+/*if(String.valueOf(minor).equals("36128")){
                     setText1("Welcome to IFMS");
 
                     Toast.makeText(getActivity(), "WELCOME TO IFMS!!!", Toast.LENGTH_LONG).show();
@@ -187,7 +193,8 @@ public class secondFrag extends Fragment implements BeaconConsumer {
                     Toast.makeText(getActivity(), "Hurry Up! The 1 for 1 drink at Starbucks ends at 4pm!", Toast.LENGTH_LONG).show();
                     setMessage("Hurry Up! The 1 for 1 drink at Starbucks ends at 4pm!");
                 }
-*/
+*//*
+
 
 
                 if (!beaconIDs.contains(uuid)) {
@@ -227,9 +234,11 @@ public class secondFrag extends Fragment implements BeaconConsumer {
         }
     };
 
-    /**
+    */
+/**
      * bytesToHex method
-     */
+     *//*
+
     static final char[] hexArray = "0123456789ABCDEF".toCharArray();
 
     private static String bytesToHex(byte[] bytes) {
@@ -263,7 +272,8 @@ public class secondFrag extends Fragment implements BeaconConsumer {
 //redundant from here onwards
 
 
-    /*public void onDestroy() {
+    */
+/*public void onDestroy() {
         super.onDestroy();
 
     }
@@ -304,7 +314,8 @@ public class secondFrag extends Fragment implements BeaconConsumer {
     @Override
     public boolean bindService(Intent intent, ServiceConnection serviceConnection, int i) {
         return false;
-    }*/
+    }*//*
+
 
 
     String textResult = "Scanning started";
@@ -352,11 +363,13 @@ public class secondFrag extends Fragment implements BeaconConsumer {
                     if (beacons.iterator().next().getDistance() > 1) {
                         setText2("Some Distance Away!");
                     }
-                /*for (Beacon beacon: beacons) {
+                */
+/*for (Beacon beacon: beacons) {
                     Log.i(TAG, "This beacon has identifiers:"+beacon.getId1()+", "+beacon.getId2()+", "+beacon.getId3());
                     TextView text2 = (TextView) myView.findViewById(R.id.thirdResult);
                     text2.setText("This beacon has identifiers:"+beacon.getId1()+", "+beacon.getId2()+", "+beacon.getId3());
-                }*/
+                }*//*
+
                 } catch (Exception e) {
                     // Log.d("TAG",e.getMessage());
                 }
@@ -456,3 +469,4 @@ public class secondFrag extends Fragment implements BeaconConsumer {
         }
     }
 }
+*/
